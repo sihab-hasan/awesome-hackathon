@@ -1,4 +1,5 @@
 # Awesome Hackathon [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 <!--lint disable double-link awesome-list-item-->
 
 > A curated, maintained, and execution-focused repository for discovering hackathons, selecting a feasible problem, building a reliable project, organizing an event, and delivering a credible demo.
@@ -27,16 +28,15 @@
 
 ## Start Here
 
-| Goal                      | Recommended route                                                                                                                          |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Goal                      | Recommended route                                                                                                                                               |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Attend a first hackathon  | [Quick start](docs/getting-started/quickstart.md) → [First-project guide](handbook/getting-started/first-project.md) → [24-hour playbook](playbooks/24-hour.md) |
-| Find a defensible problem | [Idea discovery](handbook/getting-started/finding-an-idea.md) → [Project briefs](project-ideas/README.md)                                  |
+| Find a defensible problem | [Idea discovery](handbook/getting-started/finding-an-idea.md) → [Project briefs](project-ideas/README.md)                                                       |
 | Choose a stack            | [Stack selector](docs/getting-started/stack-selector.md) → [Architecture blueprints](blueprints/architectures/)                                                 |
-| Build an AI project       | [AI track](tracks/ai.md) → [AI resources](resources/ai/) → [AI safety checklist](checklists/ai-safety.md)                                  |
-| Stabilize a demo          | [Demo rescue](playbooks/demo-rescue.md) → [Demo-day checklist](checklists/demo-day.md)                                                     |
-| Organize an event         | [Organizer operations manual](organizers/README.md) → [Judging system](organizers/judging.md)                                              |
-| Evaluate projects         | [Judge handbook](judges/README.md) → [Rubric](judges/rubric.md)                                                                            |
-
+| Build an AI project       | [AI track](tracks/ai.md) → [AI resources](resources/ai/) → [AI safety checklist](checklists/ai-safety.md)                                                       |
+| Stabilize a demo          | [Demo rescue](playbooks/demo-rescue.md) → [Demo-day checklist](checklists/demo-day.md)                                                                          |
+| Organize an event         | [Organizer operations manual](organizers/README.md) → [Judging system](organizers/judging.md)                                                                   |
+| Evaluate projects         | [Judge handbook](judges/README.md) → [Rubric](judges/rubric.md)                                                                                                 |
 
 **Public documentation:** [Browse the complete web documentation](https://sihab-hasan.github.io/awesome-hackathon/) — every repository Markdown document is published with a link back to its canonical GitHub source.
 
