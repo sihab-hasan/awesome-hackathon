@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-08-07",
+  "id": "first-hackathon",
+  "name": "First Hackathon Pack",
+  "resource_ids": [
+    "devpost",
+    "dorahacks",
+    "ethglobal",
+    "github-education-events",
+    "hackerearth-hackathons",
+    "hackster-io-contests",
+    "kaggle-competitions",
+    "major-league-hacking",
+    "taikai",
+    "unstop-hackathons",
+    "cs50",
+    "freecodecamp",
+    "full-stack-open",
+    "github-skills",
+    "github-student-developer-pack",
+    "mdn-web-docs",
+    "roadmap-sh",
+    "the-twelve-factor-app"
+  ]
+}

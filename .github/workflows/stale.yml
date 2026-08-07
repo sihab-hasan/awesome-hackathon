@@ -1,0 +1,18 @@
+name: Stale issues
+on:
+  schedule:
+    - cron: "30 5 * * 0"
+  workflow_dispatch:
+permissions:
+  issues: write
+  pull-requests: write
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v10
+        with:
+          days-before-stale: 90
+          days-before-close: 21
+          stale-issue-message: "This issue has had no activity for 90 days. Add current evidence if it remains relevant."
+          exempt-issue-labels: security,governance,roadmap

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-08-07",
+  "id": "ai-app",
+  "name": "AI Application Pack",
+  "resource_ids": [
+    "anthropic-claude-platform-docs",
+    "deepeval",
+    "google-ai-for-developers",
+    "hugging-face-documentation",
+    "langchain",
+    "langfuse",
+    "litellm",
+    "llamaindex",
+    "model-context-protocol",
+    "ollama",
+    "openai-platform-documentation",
+    "vercel-ai-sdk",
+    "pinecone",
+    "qdrant",
+    "weaviate",
+    "data-gov",
+    "kaggle-datasets",
+    "who-data",
+    "world-bank-open-data",
+    "better-stack-docs",
+    "grafana-cloud-docs",
+    "opentelemetry",
+    "sentry",
+    "github-codeql"
+  ]
+}

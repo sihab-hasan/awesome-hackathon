@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-08-07",
+  "id": "organizer",
+  "name": "Organizer Pack",
+  "resource_ids": [
+    "devpost",
+    "dorahacks",
+    "ethglobal",
+    "github-education-events",
+    "hackerearth-hackathons",
+    "hackster-io-contests",
+    "kaggle-competitions",
+    "major-league-hacking",
+    "taikai",
+    "unstop-hackathons",
+    "discord",
+    "github-projects",
+    "linear",
+    "miro",
+    "notion",
+    "slack",
+    "novu",
+    "onesignal",
+    "twilio-messaging",
+    "google-slides",
+    "loom",
+    "obs-studio",
+    "axe-core",
+    "lighthouse"
+  ]
+}

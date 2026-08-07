@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-08-07",
+  "id": "hardware-iot",
+  "name": "Hardware and IoT Pack",
+  "resource_ids": [
+    "adafruit-learning-system",
+    "arduino-documentation",
+    "edge-impulse",
+    "platformio",
+    "raspberry-pi-documentation",
+    "wokwi",
+    "apache-kafka-docs",
+    "cloudamqp-docs",
+    "nats-docs",
+    "upstash-qstash",
+    "ably-docs",
+    "pusher-docs",
+    "socket-io-docs",
+    "supabase-realtime",
+    "aws",
+    "github-codespaces",
+    "google-cloud",
+    "microsoft-azure",
+    "apache-echarts",
+    "d3-js"
+  ]
+}

@@ -1,0 +1,34 @@
+name: Event proposal
+description: Propose a verifiable hackathon event reference.
+title: "event: "
+labels: [event, triage]
+body:
+  - type: input
+    id: event
+    attributes: {label: Event name}
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes: {label: Canonical organizer URL}
+    validations: {required: true}
+  - type: input
+    id: dates
+    attributes: {label: Dates and timezone}
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public evidence
+      description: Describe organizer identity, eligibility, rules, code of conduct, registration, and why the event is relevant.
+    validations: {required: true}
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I verified the organizer and canonical URL.
+          required: true
+        - label: I disclosed any affiliation.
+          required: true
+        - label: I did not include private participant data.
+          required: true

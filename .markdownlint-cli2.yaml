@@ -1,0 +1,8 @@
+config:
+  MD013: false
+  MD033:
+    allowed_elements: [p, img, details, summary]
+  MD041: true
+globs:
+  - "**/*.md"
+  - "!LICENSE"

@@ -1,0 +1,5 @@
+max_redirects = 10
+max_retries = 3
+timeout = 20
+accept = [200, 204, 206, 429]
+exclude = ["localhost", "127.0.0.1", "github.com/sihab-hasan/awesome-hackathon/security/advisories/new"]

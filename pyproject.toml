@@ -1,0 +1,8 @@
+[project]
+name = "awesome-hackathon-repository-tools"
+version = "1.0.0"
+requires-python = ">=3.11"
+description = "Standard-library validation and catalog generation for Awesome Hackathon"
+
+[tool.ruff]
+line-length = 100

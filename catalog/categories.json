@@ -1,0 +1,889 @@
+{
+  "schema_version": "2.0",
+  "generated_on": "2026-08-07",
+  "categories": [
+    {
+      "id": "accessibility",
+      "name": "Accessibility",
+      "resource_count": 3,
+      "tags": [
+        "accessibility",
+        "audit",
+        "standards",
+        "testing",
+        "web"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "Ai",
+      "resource_count": 12,
+      "tags": [
+        "agents",
+        "api",
+        "data",
+        "datasets",
+        "evals",
+        "gateway",
+        "llm",
+        "local-ai",
+        "mcp",
+        "models",
+        "multi-provider",
+        "multimodal",
+        "observability",
+        "open-models",
+        "open-source",
+        "python",
+        "rag",
+        "streaming",
+        "testing",
+        "tools",
+        "typescript",
+        "ui"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "ai",
+        "cloud"
+      ]
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics",
+      "resource_count": 3,
+      "tags": [
+        "analytics",
+        "dashboards",
+        "feature-flags",
+        "observability",
+        "privacy"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "data"
+      ]
+    },
+    {
+      "id": "apis",
+      "name": "Apis",
+      "resource_count": 4,
+      "tags": [
+        "api-list",
+        "api-marketplace",
+        "generator",
+        "mock-api",
+        "mock-data",
+        "open-source",
+        "rest"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "authentication",
+      "name": "Authentication",
+      "resource_count": 4,
+      "tags": [
+        "auth",
+        "oauth",
+        "react",
+        "self-hosted",
+        "typescript"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "automation",
+      "name": "Automation",
+      "resource_count": 2,
+      "tags": [
+        "apis",
+        "automation",
+        "workflows"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "Backend",
+      "resource_count": 10,
+      "tags": [
+        "api",
+        "edge",
+        "fullstack",
+        "java",
+        "javascript",
+        "nodejs",
+        "php",
+        "python",
+        "runtime",
+        "services",
+        "testing",
+        "typescript"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud",
+      "resource_count": 4,
+      "tags": [
+        "aws",
+        "azure",
+        "cloud",
+        "dev-environment",
+        "gcp",
+        "github"
+      ],
+      "stages": [
+        "deploy"
+      ],
+      "platforms": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "collaboration",
+      "name": "Collaboration",
+      "resource_count": 6,
+      "tags": [
+        "chat",
+        "community",
+        "docs",
+        "github",
+        "issues",
+        "planning",
+        "team",
+        "whiteboard"
+      ],
+      "stages": [
+        "build",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "communications",
+      "name": "Communications",
+      "resource_count": 3,
+      "tags": [
+        "messaging",
+        "notifications",
+        "open-source",
+        "push",
+        "sms"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "data-visualization",
+      "name": "Data Visualization",
+      "resource_count": 3,
+      "tags": [
+        "charts",
+        "javascript",
+        "visualization"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "data",
+        "web"
+      ]
+    },
+    {
+      "id": "databases",
+      "name": "Databases",
+      "resource_count": 9,
+      "tags": [
+        "auth",
+        "backend-as-a-service",
+        "document",
+        "edge",
+        "embedded",
+        "mongodb",
+        "postgres",
+        "queue",
+        "realtime",
+        "redis",
+        "relational",
+        "serverless",
+        "sql",
+        "sqlite"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "cloud",
+        "data"
+      ]
+    },
+    {
+      "id": "datasets",
+      "name": "Datasets",
+      "resource_count": 4,
+      "tags": [
+        "data",
+        "global",
+        "government",
+        "health",
+        "ml",
+        "open-data"
+      ],
+      "stages": [
+        "build",
+        "plan"
+      ],
+      "platforms": [
+        "data"
+      ]
+    },
+    {
+      "id": "design",
+      "name": "Design",
+      "resource_count": 4,
+      "tags": [
+        "design",
+        "diagrams",
+        "graphics",
+        "open-source",
+        "prototype",
+        "slides",
+        "whiteboard"
+      ],
+      "stages": [
+        "build",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "developer-tools",
+      "name": "Developer Tools",
+      "resource_count": 6,
+      "tags": [
+        "cloudflare",
+        "collaboration",
+        "editor",
+        "git",
+        "ide",
+        "tunnel",
+        "utilities",
+        "version-control",
+        "webhooks"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "devops",
+      "name": "Devops",
+      "resource_count": 2,
+      "tags": [
+        "ci-cd",
+        "containers",
+        "devops",
+        "github"
+      ],
+      "stages": [
+        "deploy",
+        "maintain"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "documentation",
+      "name": "Documentation",
+      "resource_count": 4,
+      "tags": [
+        "components",
+        "design-system",
+        "markdown",
+        "python",
+        "react",
+        "static-site",
+        "ui-testing",
+        "versioning",
+        "vite",
+        "vue"
+      ],
+      "stages": [
+        "build",
+        "maintain",
+        "submit"
+      ],
+      "platforms": [
+        "web"
+      ]
+    },
+    {
+      "id": "email",
+      "name": "Email",
+      "resource_count": 4,
+      "tags": [
+        "api",
+        "deliverability",
+        "email-api",
+        "routing",
+        "smtp",
+        "templates",
+        "transactional",
+        "validation",
+        "webhooks"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "frontend",
+      "name": "Frontend",
+      "resource_count": 12,
+      "tags": [
+        "accessibility",
+        "components",
+        "content",
+        "css",
+        "design-system",
+        "enterprise",
+        "fullstack",
+        "javascript",
+        "primitives",
+        "react",
+        "static",
+        "svelte",
+        "tailwind",
+        "tooling",
+        "typescript",
+        "ui",
+        "vue"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "web"
+      ]
+    },
+    {
+      "id": "games",
+      "name": "Games",
+      "resource_count": 3,
+      "tags": [
+        "engine",
+        "games",
+        "javascript"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "desktop",
+        "mobile",
+        "web"
+      ]
+    },
+    {
+      "id": "hackathons",
+      "name": "Hackathons",
+      "resource_count": 10,
+      "tags": [
+        "challenges",
+        "community",
+        "competitions",
+        "data",
+        "discover",
+        "ethereum",
+        "events",
+        "grants",
+        "hardware",
+        "iot",
+        "jobs",
+        "ml",
+        "organizers",
+        "students",
+        "submit",
+        "web3"
+      ],
+      "stages": [
+        "discover",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "hardware",
+      "name": "Hardware",
+      "resource_count": 6,
+      "tags": [
+        "arduino",
+        "edge-ai",
+        "electronics",
+        "embedded",
+        "iot",
+        "raspberry-pi",
+        "simulation",
+        "tinyml",
+        "toolchain",
+        "tutorials"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "hosting",
+      "name": "Hosting",
+      "resource_count": 7,
+      "tags": [
+        "containers",
+        "edge",
+        "github",
+        "hosting",
+        "jamstack",
+        "serverless",
+        "services",
+        "static"
+      ],
+      "stages": [
+        "deploy"
+      ],
+      "platforms": [
+        "cloud",
+        "web"
+      ]
+    },
+    {
+      "id": "inspiration",
+      "name": "Inspiration",
+      "resource_count": 4,
+      "tags": [
+        "architecture",
+        "awesome-list",
+        "discovery",
+        "ideas",
+        "learning",
+        "projects",
+        "systems"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "learning",
+      "name": "Learning",
+      "resource_count": 9,
+      "tags": [
+        "accessibility",
+        "architecture",
+        "beginner",
+        "benefits",
+        "career",
+        "cloud",
+        "computer-science",
+        "courses",
+        "fullstack",
+        "git",
+        "github",
+        "performance",
+        "react",
+        "reference",
+        "roadmaps",
+        "students",
+        "web"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "maps",
+      "name": "Maps",
+      "resource_count": 5,
+      "tags": [
+        "geospatial",
+        "javascript",
+        "maps",
+        "open-data",
+        "places",
+        "vector-tiles"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "media",
+      "name": "Media",
+      "resource_count": 1,
+      "tags": [
+        "streaming",
+        "video"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "messaging",
+      "name": "Messaging",
+      "resource_count": 4,
+      "tags": [
+        "event-streaming",
+        "http",
+        "managed",
+        "open-source",
+        "pub-sub",
+        "queues",
+        "rabbitmq",
+        "serverless",
+        "streams"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile",
+      "resource_count": 5,
+      "tags": [
+        "mobile"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "mobile"
+      ]
+    },
+    {
+      "id": "observability",
+      "name": "Observability",
+      "resource_count": 4,
+      "tags": [
+        "dashboards",
+        "errors",
+        "incidents",
+        "logs",
+        "metrics",
+        "observability",
+        "standards",
+        "uptime"
+      ],
+      "stages": [
+        "deploy",
+        "maintain",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "open-source",
+      "name": "Open Source",
+      "resource_count": 3,
+      "tags": [
+        "beginner",
+        "community",
+        "git",
+        "issues"
+      ],
+      "stages": [
+        "maintain",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "payments",
+      "name": "Payments",
+      "resource_count": 2,
+      "tags": [
+        "billing",
+        "payments",
+        "subscriptions"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "presentation",
+      "name": "Presentation",
+      "resource_count": 3,
+      "tags": [
+        "collaboration",
+        "demo",
+        "recording",
+        "slides"
+      ],
+      "stages": [
+        "demo",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "resource_count": 2,
+      "tags": [
+        "knowledge",
+        "macos",
+        "notes",
+        "productivity"
+      ],
+      "stages": [
+        "build",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "realtime",
+      "name": "Realtime",
+      "resource_count": 4,
+      "tags": [
+        "channels",
+        "database",
+        "javascript",
+        "managed",
+        "notifications",
+        "presence",
+        "pub-sub",
+        "rooms",
+        "supabase",
+        "websockets"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud",
+        "mobile",
+        "web"
+      ]
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "resource_count": 3,
+      "tags": [
+        "hosted",
+        "open-source",
+        "search"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "resource_count": 6,
+      "tags": [
+        "containers",
+        "github",
+        "headers",
+        "reference",
+        "sast",
+        "scanner",
+        "secrets",
+        "security",
+        "web"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "storage",
+      "name": "Storage",
+      "resource_count": 4,
+      "tags": [
+        "aws",
+        "cdn",
+        "media",
+        "object-storage",
+        "scalable",
+        "security",
+        "supabase",
+        "typescript",
+        "uploads"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ]
+    },
+    {
+      "id": "testing",
+      "name": "Testing",
+      "resource_count": 5,
+      "tags": [
+        "browser",
+        "e2e",
+        "frontend",
+        "javascript",
+        "load-testing",
+        "performance",
+        "python",
+        "testing",
+        "unit-testing"
+      ],
+      "stages": [
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "ui-ux",
+      "name": "Ui Ux",
+      "resource_count": 5,
+      "tags": [
+        "animation",
+        "assets",
+        "fonts",
+        "icons",
+        "illustrations",
+        "svg",
+        "typography"
+      ],
+      "stages": [
+        "build",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ]
+    },
+    {
+      "id": "vector-databases",
+      "name": "Vector Databases",
+      "resource_count": 3,
+      "tags": [
+        "hybrid-search",
+        "managed",
+        "rag",
+        "vector"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "ai",
+        "data"
+      ]
+    }
+  ]
+}

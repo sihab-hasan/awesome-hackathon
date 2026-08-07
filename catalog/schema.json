@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/awesome-hackathon/catalog/schema.json",
+  "title": "Awesome Hackathon Resource Catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "generated_on",
+    "resources"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "generated_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "resources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/resource"
+      }
+    }
+  },
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "resource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "category",
+        "name",
+        "url",
+        "description",
+        "tags",
+        "cost",
+        "official",
+        "source_type",
+        "status",
+        "best_for",
+        "reviewed_on",
+        "audiences",
+        "stages",
+        "platforms",
+        "risk_level"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/slug"
+        },
+        "category": {
+          "$ref": "#/$defs/slug"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 100
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 20,
+          "maxLength": 240
+        },
+        "tags": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/slug"
+          }
+        },
+        "cost": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 80
+        },
+        "official": {
+          "type": "boolean"
+        },
+        "source_type": {
+          "enum": [
+            "official",
+            "primary",
+            "community"
+          ]
+        },
+        "status": {
+          "enum": [
+            "active",
+            "deprecated",
+            "archived"
+          ]
+        },
+        "best_for": {
+          "type": "string",
+          "minLength": 8,
+          "maxLength": 160
+        },
+        "reviewed_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "audiences": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "participant",
+              "organizer",
+              "mentor",
+              "judge",
+              "educator"
+            ]
+          }
+        },
+        "stages": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "discover",
+              "plan",
+              "build",
+              "test",
+              "deploy",
+              "demo",
+              "submit",
+              "organize",
+              "maintain"
+            ]
+          }
+        },
+        "platforms": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "any",
+              "web",
+              "mobile",
+              "desktop",
+              "cloud",
+              "hardware",
+              "data",
+              "ai"
+            ]
+          }
+        },
+        "risk_level": {
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        }
+      }
+    }
+  }
+}

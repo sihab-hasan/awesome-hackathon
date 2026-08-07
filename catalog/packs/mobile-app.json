@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-08-07",
+  "id": "mobile-app",
+  "name": "Mobile Application Pack",
+  "resource_ids": [
+    "android-developers",
+    "expo",
+    "flutter",
+    "react-native",
+    "swiftui",
+    "bruno",
+    "bun",
+    "django",
+    "express",
+    "fastapi",
+    "hono",
+    "laravel",
+    "nestjs",
+    "postman",
+    "spring-boot",
+    "auth0",
+    "better-auth",
+    "clerk",
+    "keycloak",
+    "cloudflare-d1"
+  ]
+}

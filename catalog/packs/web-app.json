@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-08-07",
+  "id": "web-app",
+  "name": "Web Application Pack",
+  "resource_ids": [
+    "angular",
+    "astro",
+    "daisyui",
+    "material-ui",
+    "next-js",
+    "nuxt",
+    "radix-ui",
+    "react",
+    "shadcn-ui",
+    "sveltekit",
+    "tailwind-css",
+    "vite",
+    "bruno",
+    "bun",
+    "django",
+    "express",
+    "fastapi",
+    "hono",
+    "laravel",
+    "nestjs",
+    "postman",
+    "spring-boot",
+    "cloudflare-d1",
+    "firebase"
+  ]
+}

@@ -1,0 +1,107 @@
+site_name: Awesome Hackathon
+site_description: End-state hackathon handbook, blueprint library, and curated resource catalog
+site_author: Awesome Hackathon contributors
+site_url: https://sihab-hasan.github.io/awesome-hackathon/
+repo_url: https://github.com/sihab-hasan/awesome-hackathon
+repo_name: sihab-hasan/awesome-hackathon
+edit_uri: edit/main/handbook/
+docs_dir: handbook
+copyright: Content licensed under MIT; external resources retain their own terms.
+
+theme:
+  name: material
+  palette:
+    # Follow the operating-system preference by default
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: lucide/sun-moon
+        name: Switch to light mode
+
+    # Explicit light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: lucide/sun
+        name: Switch to dark mode
+
+    # Explicit dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: lucide/moon
+        name: Switch to system preference
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: README.md
+  - Getting started:
+      - Overview: getting-started/README.md
+      - Choosing a team: getting-started/choosing-a-team.md
+      - Finding an idea: getting-started/finding-an-idea.md
+      - Choosing a stack: getting-started/tech-stack.md
+      - First project: getting-started/first-project.md
+  - Hackathon lifecycle:
+      - Overview: hackathon-guide/README.md
+      - Before: hackathon-guide/before.md
+      - During: hackathon-guide/during.md
+      - After: hackathon-guide/after.md
+  - Planning and teams:
+      - Project planning: project-planning/README.md
+      - MVP: project-planning/mvp.md
+      - Sprint: project-planning/sprint.md
+      - Roadmap: project-planning/roadmap.md
+      - Team management: team-management/README.md
+      - Roles: team-management/roles.md
+      - Communication: team-management/communication.md
+      - Collaboration: team-management/collaboration.md
+  - Engineering:
+      - System design: system-design/README.md
+      - API design: api-design/README.md
+      - Database design: database-design/README.md
+      - Authentication: authentication/README.md
+      - Testing: testing/README.md
+      - Security: security/README.md
+      - Privacy: privacy/README.md
+      - Accessibility: accessibility/README.md
+      - Reliability: resilience/README.md
+      - Observability: observability/README.md
+      - Deployment: deployment/README.md
+  - Specialized builds:
+      - AI projects: ai/README.md
+      - Data projects: data/README.md
+      - Mobile projects: mobile/README.md
+      - Hardware and IoT: hardware/README.md
+      - Sponsor challenges: sponsor-challenges/README.md
+      - Responsible innovation: responsible-innovation/README.md
+      - Legal and IP: legal-and-ip/README.md
+      - Open-source readiness: open-source/README.md
+  - Deliver:
+      - Pitching: pitching/README.md
+      - Presentation: presentation/README.md
+      - Demo engineering: demo/README.md
+      - Judging: judging/README.md
+      - Demo-day checklist: checklists/demo-day.md
+      - Security checklist: checklists/security.md
+      - AI safety checklist: checklists/ai-safety.md
+  - Reference:
+      - Stack selector: reference/stack-selector.md
+      - Catalog CLI: reference/catalog-cli.md
+      - Repository validation: reference/repository-validation.md

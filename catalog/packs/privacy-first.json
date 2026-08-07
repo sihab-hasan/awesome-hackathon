@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-08-07",
+  "id": "privacy-first",
+  "name": "Privacy-First Pack",
+  "resource_ids": [
+    "github-codeql",
+    "gitleaks",
+    "mozilla-observatory",
+    "owasp-cheat-sheet-series",
+    "owasp-top-10",
+    "trivy",
+    "auth0",
+    "better-auth",
+    "clerk",
+    "keycloak",
+    "cloudflare-d1",
+    "firebase",
+    "mongodb-atlas",
+    "neon",
+    "postgresql",
+    "sqlite",
+    "supabase",
+    "turso",
+    "upstash",
+    "amazon-s3-docs"
+  ]
+}

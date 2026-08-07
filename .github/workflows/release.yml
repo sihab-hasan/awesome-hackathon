@@ -1,0 +1,55 @@
+name: Release
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: write
+  id-token: write
+  attestations: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - name: Install validation dependencies
+        run: python -m pip install --requirement requirements-validation.txt
+      - name: Validate version and source
+        run: |
+          test "v$(cat VERSION)" = "${GITHUB_REF_NAME}"
+          python3 -m compileall -q scripts tests
+          python3 scripts/validate_structured_files.py
+          python3 scripts/generate_catalog.py --check
+          python3 scripts/review_due.py --strict
+          python3 scripts/validate_repository.py
+          python3 -m unittest discover -s tests -v
+      - name: Remove generated caches
+        run: make clean
+      - name: Create release evidence
+        run: |
+          git archive --format=zip --prefix=awesome-hackathon-${GITHUB_REF_NAME}/ --output=awesome-hackathon-${GITHUB_REF_NAME}.zip HEAD
+          sha256sum awesome-hackathon-${GITHUB_REF_NAME}.zip > awesome-hackathon-${GITHUB_REF_NAME}.zip.sha256
+          find . -type f \
+            -not -path './.git/*' \
+            -not -path './site/*' \
+            -not -name 'SOURCE-MANIFEST.sha256' \
+            -not -name 'awesome-hackathon-*.zip' \
+            -not -name 'awesome-hackathon-*.zip.sha256' \
+            -print0 | sort -z | xargs -0 sha256sum > SOURCE-MANIFEST.sha256
+          sha256sum -c SOURCE-MANIFEST.sha256
+      - name: Attest release archive
+        uses: actions/attest@v4
+        with:
+          subject-path: awesome-hackathon-${{ github.ref_name }}.zip
+      - uses: softprops/action-gh-release@v3
+        with:
+          generate_release_notes: true
+          files: |
+            awesome-hackathon-${{ github.ref_name }}.zip
+            awesome-hackathon-${{ github.ref_name }}.zip.sha256
+            SOURCE-MANIFEST.sha256

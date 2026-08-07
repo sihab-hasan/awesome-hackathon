@@ -1,0 +1,15 @@
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.venv/
+site/
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
+*.py[cod]
+.site-docs/
+mkdocs-site.generated.yml

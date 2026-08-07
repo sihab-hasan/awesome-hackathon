@@ -1,0 +1,13 @@
+name: Repository problem
+description: Report broken navigation, validation, or repository automation.
+title: "fix: "
+labels: [bug, triage]
+body:
+  - type: textarea
+    id: problem
+    attributes: {label: Problem, description: Include the file, command, or link and what happened.}
+    validations: {required: true}
+  - type: textarea
+    id: expected
+    attributes: {label: Expected behavior}
+    validations: {required: true}

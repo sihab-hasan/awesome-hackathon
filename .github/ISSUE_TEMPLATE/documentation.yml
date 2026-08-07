@@ -1,0 +1,13 @@
+name: Documentation improvement
+description: Report unclear, incomplete, or outdated guidance.
+title: "docs: "
+labels: [documentation, triage]
+body:
+  - type: input
+    id: page
+    attributes: {label: Page or section}
+    validations: {required: true}
+  - type: textarea
+    id: improvement
+    attributes: {label: Proposed improvement}
+    validations: {required: true}

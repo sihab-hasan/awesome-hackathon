@@ -1,0 +1,38 @@
+name: Project showcase proposal
+description: Propose a completed hackathon project with public evidence.
+title: "showcase: "
+labels: [showcase, triage]
+body:
+  - type: input
+    id: project
+    attributes: {label: Project name}
+    validations: {required: true}
+  - type: input
+    id: event
+    attributes: {label: Event and year}
+    validations: {required: true}
+  - type: input
+    id: repository
+    attributes: {label: Public repository URL}
+    validations: {required: true}
+  - type: input
+    id: evidence
+    attributes: {label: Demo, video, or organizer result URL}
+    validations: {required: true}
+  - type: textarea
+    id: summary
+    attributes:
+      label: Demonstrated outcome
+      description: Describe the target user, working outcome, team attribution, technology, license, limitations, accessibility, and safety notes.
+    validations: {required: true}
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: The links are public and the attribution is accurate.
+          required: true
+        - label: I disclosed any affiliation.
+          required: true
+        - label: The project contains no exposed credentials or private data.
+          required: true

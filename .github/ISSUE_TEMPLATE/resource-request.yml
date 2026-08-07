@@ -1,0 +1,49 @@
+name: Resource request
+description: Propose a new resource or an update to an existing one.
+title: "catalog: "
+labels: [resource, triage]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official or primary HTTPS URL
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: Hackathon use case
+      description: Explain the specific problem it solves and why existing entries do not cover it.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options: ["accessibility", "ai", "analytics", "apis", "authentication", "automation", "backend", "cloud", "collaboration", "communications", "data-visualization", "databases", "datasets", "design", "developer-tools", "devops", "documentation", "email", "frontend", "games", "hackathons", "hardware", "hosting", "inspiration", "learning", "maps", "media", "messaging", "mobile", "observability", "open-source", "payments", "presentation", "productivity", "realtime", "search", "security", "storage", "testing", "ui-ux", "vector-databases", "other"]
+    validations:
+      required: true
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: Source type
+      options: [official, primary, community]
+    validations:
+      required: true
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Confirmation
+      options:
+        - label: I read docs/maintainers/curation.md.
+          required: true
+        - label: I verified the URL and current terms.
+          required: true
+        - label: I disclosed any affiliation in the text above.
+          required: true

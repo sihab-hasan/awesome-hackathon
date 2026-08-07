@@ -1,0 +1,5572 @@
+{
+  "schema_version": "2.0",
+  "generated_on": "2026-08-07",
+  "resources": [
+    {
+      "id": "axe-core",
+      "category": "accessibility",
+      "name": "axe-core",
+      "url": "https://github.com/dequelabs/axe-core",
+      "description": "Open-source accessibility testing engine for web interfaces",
+      "tags": [
+        "accessibility",
+        "testing"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Automated accessibility checks",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "judge",
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "lighthouse",
+      "category": "accessibility",
+      "name": "Lighthouse",
+      "url": "https://developer.chrome.com/handbook/lighthouse/overview",
+      "description": "Automated audits for performance, accessibility, best practices, and SEO",
+      "tags": [
+        "audit",
+        "web"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Fast web quality checks",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "judge",
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "wai-web-accessibility-tutorials",
+      "category": "accessibility",
+      "name": "WAI Web Accessibility Tutorials",
+      "url": "https://www.w3.org/WAI/tutorials/",
+      "description": "Standards-based tutorials for accessible page structure, forms, images, tables, and components",
+      "tags": [
+        "accessibility",
+        "standards"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Accessible web implementation",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "judge",
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "anthropic-claude-platform-docs",
+      "category": "ai",
+      "name": "Anthropic Claude Platform Docs",
+      "url": "https://docs.anthropic.com/",
+      "description": "Official Claude API quickstarts, tool use, structured outputs, evaluation, and safety guidance",
+      "tags": [
+        "agents",
+        "api",
+        "llm"
+      ],
+      "cost": "Usage based",
+      "official": true,
+      "best_for": "Reasoning and tool-using applications",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "ai",
+        "cloud"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "deepeval",
+      "category": "ai",
+      "name": "DeepEval",
+      "url": "https://deepeval.com/handbook/",
+      "description": "Evaluation framework for LLM outputs, retrieval, agents, and regression tests",
+      "tags": [
+        "evals",
+        "testing"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Automated AI quality checks",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "ai",
+        "cloud"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "google-ai-for-developers",
+      "category": "ai",
+      "name": "Google AI for Developers",
+      "url": "https://ai.google.dev/",
+      "description": "Official Gemini API documentation, SDKs, multimodal examples, and model guides",
+      "tags": [
+        "api",
+        "llm",
+        "multimodal"
+      ],
+      "cost": "Free tier and usage based",
+      "official": true,
+      "best_for": "Multimodal prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "ai",
+        "cloud"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "hugging-face-documentation",
+      "category": "ai",
+      "name": "Hugging Face Documentation",
+      "url": "https://huggingface.co/docs",
+      "description": "Models, datasets, Spaces, inference providers, open-source ML libraries, and deployment guides",
+      "tags": [
+        "datasets",
+        "models",
+        "open-source"
+      ],
+      "cost": "Free and paid options",
+      "official": true,
+      "best_for": "Open models and demos",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "ai",
+        "cloud"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "langchain",
+      "category": "ai",
+      "name": "LangChain",
+      "url": "https://docs.langchain.com/",
+      "description": "Framework and ecosystem for agents, retrieval, model integration, and observability",
+      "tags": [
+        "agents",
+        "python",
+        "rag",
+        "typescript"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Complex AI workflows",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "ai",
+        "cloud"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "langfuse",
+      "category": "ai",
+      "name": "Langfuse",
+      "url": "https://langfuse.com/docs",
+      "description": "Open-source LLM tracing, prompt management, evaluations, and usage analytics",
+      "tags": [
+        "evals",
+        "observability"
+      ],
+      "cost": "Open source and hosted",
+      "official": true,
+      "best_for": "Debugging AI applications",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "ai",
+        "cloud"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "litellm",
+      "category": "ai",
+      "name": "LiteLLM",
+      "url": "https://docs.litellm.ai/",
+      "description": "Provider-neutral model gateway and SDK with routing, budgets, fallbacks, and observability",
+      "tags": [
+        "gateway",
+        "multi-provider"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Switching between model providers",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "ai",
+        "cloud"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "llamaindex",
+      "category": "ai",
+      "name": "LlamaIndex",
+      "url": "https://docs.llamaindex.ai/",
+      "description": "Data framework for retrieval, agents, document processing, and knowledge applications",
+      "tags": [
+        "agents",
+        "data",
+        "rag"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "RAG and knowledge systems",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "ai",
+        "cloud"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "model-context-protocol",
+      "category": "ai",
+      "name": "Model Context Protocol",
+      "url": "https://modelcontextprotocol.io/",
+      "description": "Open protocol for connecting AI applications to tools, resources, and prompts",
+      "tags": [
+        "agents",
+        "mcp",
+        "tools"
+      ],
+      "cost": "Open standard",
+      "official": true,
+      "best_for": "Tool and data integrations",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "ai",
+        "cloud"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "ollama",
+      "category": "ai",
+      "name": "Ollama",
+      "url": "https://ollama.com/",
+      "description": "Run and manage supported open models locally with a simple developer workflow",
+      "tags": [
+        "local-ai",
+        "open-models"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Offline and private prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "ai",
+        "cloud"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "openai-platform-documentation",
+      "category": "ai",
+      "name": "OpenAI Platform Documentation",
+      "url": "https://platform.openai.com/docs",
+      "description": "Official API documentation for models, tools, structured outputs, realtime, embeddings, and production guidance",
+      "tags": [
+        "agents",
+        "api",
+        "llm"
+      ],
+      "cost": "Usage based",
+      "official": true,
+      "best_for": "General AI applications",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "ai",
+        "cloud"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "vercel-ai-sdk",
+      "category": "ai",
+      "name": "Vercel AI SDK",
+      "url": "https://ai-sdk.dev/",
+      "description": "TypeScript toolkit for streaming AI interfaces, providers, tools, agents, and structured data",
+      "tags": [
+        "streaming",
+        "typescript",
+        "ui"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "AI-enabled web applications",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "ai",
+        "cloud"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "grafana",
+      "category": "analytics",
+      "name": "Grafana",
+      "url": "https://grafana.com/handbook/grafana/latest/",
+      "description": "Dashboards and visualization for metrics, logs, traces, and operational data",
+      "tags": [
+        "dashboards",
+        "observability"
+      ],
+      "cost": "Open source and cloud",
+      "official": true,
+      "best_for": "Operational dashboards",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "data"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "plausible-analytics",
+      "category": "analytics",
+      "name": "Plausible Analytics",
+      "url": "https://plausible.io/docs",
+      "description": "Privacy-friendly lightweight web analytics",
+      "tags": [
+        "analytics",
+        "privacy"
+      ],
+      "cost": "Paid and self-hostable",
+      "official": true,
+      "best_for": "Simple website analytics",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "data"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "posthog",
+      "category": "analytics",
+      "name": "PostHog",
+      "url": "https://posthog.com/docs",
+      "description": "Product analytics, feature flags, session replay, experiments, and data tools",
+      "tags": [
+        "analytics",
+        "feature-flags"
+      ],
+      "cost": "Open source and hosted",
+      "official": true,
+      "best_for": "Understanding product usage",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "data"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "jsonplaceholder",
+      "category": "apis",
+      "name": "JSONPlaceholder",
+      "url": "https://jsonplaceholder.typicode.com/",
+      "description": "Hosted fake REST API for prototyping and examples",
+      "tags": [
+        "mock-api",
+        "rest"
+      ],
+      "cost": "Free",
+      "official": false,
+      "best_for": "Frontend prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "primary",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "mockaroo",
+      "category": "apis",
+      "name": "Mockaroo",
+      "url": "https://www.mockaroo.com/",
+      "description": "Generate realistic structured test data and mock APIs",
+      "tags": [
+        "generator",
+        "mock-data"
+      ],
+      "cost": "Free tier and paid",
+      "official": false,
+      "best_for": "Demo datasets",
+      "reviewed_on": "2026-08-07",
+      "source_type": "primary",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "public-apis",
+      "category": "apis",
+      "name": "Public APIs",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "Community-maintained collection of public APIs grouped by topic",
+      "tags": [
+        "api-list",
+        "open-source"
+      ],
+      "cost": "Varies",
+      "official": false,
+      "best_for": "Finding data and service APIs",
+      "reviewed_on": "2026-08-07",
+      "source_type": "community",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "rapidapi-hub",
+      "category": "apis",
+      "name": "RapidAPI Hub",
+      "url": "https://rapidapi.com/hub",
+      "description": "API discovery and testing marketplace across many categories",
+      "tags": [
+        "api-marketplace"
+      ],
+      "cost": "Free and paid APIs",
+      "official": true,
+      "best_for": "Quick third-party integrations",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "auth0",
+      "category": "authentication",
+      "name": "Auth0",
+      "url": "https://auth0.com/docs",
+      "description": "Managed authentication and authorization with social and enterprise identity providers",
+      "tags": [
+        "auth",
+        "oauth"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Standards-based authentication",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "better-auth",
+      "category": "authentication",
+      "name": "Better Auth",
+      "url": "https://www.better-auth.com/docs",
+      "description": "Framework-agnostic TypeScript authentication library with plugins and database adapters",
+      "tags": [
+        "auth",
+        "typescript"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Self-managed TypeScript authentication",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "clerk",
+      "category": "authentication",
+      "name": "Clerk",
+      "url": "https://clerk.com/docs",
+      "description": "Authentication, user management, organizations, and prebuilt interface components",
+      "tags": [
+        "auth",
+        "react"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Fast polished authentication",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "keycloak",
+      "category": "authentication",
+      "name": "Keycloak",
+      "url": "https://www.keycloak.org/documentation",
+      "description": "Open-source identity and access management with OAuth, OIDC, and SAML",
+      "tags": [
+        "auth",
+        "self-hosted"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Self-hosted identity",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "n8n",
+      "category": "automation",
+      "name": "n8n",
+      "url": "https://docs.n8n.io/",
+      "description": "Workflow automation platform with integrations, code steps, webhooks, and self-hosting",
+      "tags": [
+        "automation",
+        "workflows"
+      ],
+      "cost": "Open source and hosted",
+      "official": true,
+      "best_for": "Integration-heavy prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "pipedream",
+      "category": "automation",
+      "name": "Pipedream",
+      "url": "https://pipedream.com/docs",
+      "description": "Serverless workflows that connect APIs, events, code, and managed authentication",
+      "tags": [
+        "apis",
+        "automation"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Fast API workflows",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "bruno",
+      "category": "backend",
+      "name": "Bruno",
+      "url": "https://docs.usebruno.com/",
+      "description": "Git-friendly open-source API client storing collections as plain text",
+      "tags": [
+        "api",
+        "testing"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Collaborative API testing",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "bun",
+      "category": "backend",
+      "name": "Bun",
+      "url": "https://bun.sh/docs",
+      "description": "JavaScript runtime, package manager, test runner, and bundler",
+      "tags": [
+        "javascript",
+        "runtime"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Fast JavaScript tooling",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "django",
+      "category": "backend",
+      "name": "Django",
+      "url": "https://docs.djangoproject.com/",
+      "description": "Python web framework with ORM, admin, authentication, forms, and security defaults",
+      "tags": [
+        "fullstack",
+        "python"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Data-heavy web applications",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "express",
+      "category": "backend",
+      "name": "Express",
+      "url": "https://expressjs.com/",
+      "description": "Minimal Node.js web framework with a large middleware ecosystem",
+      "tags": [
+        "api",
+        "nodejs"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Simple APIs and webhooks",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "fastapi",
+      "category": "backend",
+      "name": "FastAPI",
+      "url": "https://fastapi.tiangolo.com/",
+      "description": "Python API framework with type-driven validation and automatic OpenAPI documentation",
+      "tags": [
+        "api",
+        "python"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "AI and data-backed APIs",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "hono",
+      "category": "backend",
+      "name": "Hono",
+      "url": "https://hono.dev/handbook/",
+      "description": "Small web framework targeting edge runtimes, Bun, Node, and serverless platforms",
+      "tags": [
+        "edge",
+        "typescript"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Edge APIs and lightweight services",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "laravel",
+      "category": "backend",
+      "name": "Laravel",
+      "url": "https://laravel.com/docs",
+      "description": "PHP web framework with routing, ORM, queues, authentication, and productive tooling",
+      "tags": [
+        "fullstack",
+        "php"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Rapid business applications",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "nestjs",
+      "category": "backend",
+      "name": "NestJS",
+      "url": "https://docs.nestjs.com/",
+      "description": "Structured TypeScript backend framework with modules, dependency injection, and transports",
+      "tags": [
+        "api",
+        "typescript"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Larger team backends",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "postman",
+      "category": "backend",
+      "name": "Postman",
+      "url": "https://learning.postman.com/handbook/",
+      "description": "API client, collections, mock servers, documentation, and automated API tests",
+      "tags": [
+        "api",
+        "testing"
+      ],
+      "cost": "Free and paid",
+      "official": true,
+      "best_for": "Exploring and demonstrating APIs",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "spring-boot",
+      "category": "backend",
+      "name": "Spring Boot",
+      "url": "https://spring.io/projects/spring-boot",
+      "description": "Java framework for production services with extensive ecosystem integrations",
+      "tags": [
+        "java",
+        "services"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Java and enterprise projects",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "aws",
+      "category": "cloud",
+      "name": "AWS",
+      "url": "https://docs.aws.amazon.com/",
+      "description": "Cloud services for compute, storage, databases, AI, serverless, and IoT",
+      "tags": [
+        "aws",
+        "cloud"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Broad infrastructure needs",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "deploy"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "github-codespaces",
+      "category": "cloud",
+      "name": "GitHub Codespaces",
+      "url": "https://docs.github.com/en/codespaces",
+      "description": "Cloud development environments configured from a repository",
+      "tags": [
+        "dev-environment",
+        "github"
+      ],
+      "cost": "Quota based",
+      "official": true,
+      "best_for": "Consistent team setup",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "deploy"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "google-cloud",
+      "category": "cloud",
+      "name": "Google Cloud",
+      "url": "https://cloud.google.com/docs",
+      "description": "Managed compute, data, AI, serverless, storage, and infrastructure services",
+      "tags": [
+        "cloud",
+        "gcp"
+      ],
+      "cost": "Free credits and paid",
+      "official": true,
+      "best_for": "Cloud and AI prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "deploy"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "microsoft-azure",
+      "category": "cloud",
+      "name": "Microsoft Azure",
+      "url": "https://learn.microsoft.com/azure/",
+      "description": "Cloud documentation for applications, data, AI, identity, and infrastructure",
+      "tags": [
+        "azure",
+        "cloud"
+      ],
+      "cost": "Free credits and paid",
+      "official": true,
+      "best_for": "Microsoft ecosystem projects",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "deploy"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "discord",
+      "category": "collaboration",
+      "name": "Discord",
+      "url": "https://support.discord.com/",
+      "description": "Community and team communication with voice, channels, and bots",
+      "tags": [
+        "chat",
+        "community"
+      ],
+      "cost": "Free and paid",
+      "official": true,
+      "best_for": "Hackathon communities and teams",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "github-projects",
+      "category": "collaboration",
+      "name": "GitHub Projects",
+      "url": "https://docs.github.com/en/issues/planning-and-tracking-with-projects",
+      "description": "Issue and pull-request planning with tables, boards, roadmaps, and automation",
+      "tags": [
+        "github",
+        "planning"
+      ],
+      "cost": "Free and paid",
+      "official": true,
+      "best_for": "Repository-centered task tracking",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "linear",
+      "category": "collaboration",
+      "name": "Linear",
+      "url": "https://linear.app/docs",
+      "description": "Fast issue tracking, cycles, roadmaps, and GitHub integrations",
+      "tags": [
+        "issues",
+        "planning"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Focused software execution",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "miro",
+      "category": "collaboration",
+      "name": "Miro",
+      "url": "https://help.miro.com/",
+      "description": "Collaborative visual workspace for brainstorming, mapping, and workshops",
+      "tags": [
+        "planning",
+        "whiteboard"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Idea selection and journey maps",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "notion",
+      "category": "collaboration",
+      "name": "Notion",
+      "url": "https://www.notion.com/help",
+      "description": "Collaborative notes, project plans, databases, and documentation",
+      "tags": [
+        "docs",
+        "planning"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Team workspace and research",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "slack",
+      "category": "collaboration",
+      "name": "Slack",
+      "url": "https://slack.com/help",
+      "description": "Team communication, channels, integrations, and workflows",
+      "tags": [
+        "chat",
+        "team"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Team coordination",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "novu",
+      "category": "communications",
+      "name": "Novu",
+      "url": "https://docs.novu.co/",
+      "description": "Open-source notification infrastructure with workflows, preferences, inbox, and providers",
+      "tags": [
+        "notifications",
+        "open-source"
+      ],
+      "cost": "Open source and hosted",
+      "official": true,
+      "best_for": "Multi-channel notification workflows",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "onesignal",
+      "category": "communications",
+      "name": "OneSignal",
+      "url": "https://documentation.onesignal.com/",
+      "description": "Push notifications, in-app messaging, email, SMS, segmentation, and delivery analytics",
+      "tags": [
+        "notifications",
+        "push"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Cross-platform notifications",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "twilio-messaging",
+      "category": "communications",
+      "name": "Twilio Messaging",
+      "url": "https://www.twilio.com/handbook/messaging",
+      "description": "APIs for SMS, MMS, WhatsApp, RCS, messaging services, and delivery status",
+      "tags": [
+        "messaging",
+        "sms"
+      ],
+      "cost": "Trial and usage based",
+      "official": true,
+      "best_for": "Messaging prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "apache-echarts",
+      "category": "data-visualization",
+      "name": "Apache ECharts",
+      "url": "https://echarts.apache.org/en/option.html",
+      "description": "Rich charting and visualization library with many interactive chart types",
+      "tags": [
+        "charts",
+        "visualization"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Dashboards and complex charts",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "data",
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "d3-js",
+      "category": "data-visualization",
+      "name": "D3.js",
+      "url": "https://d3js.org/getting-started",
+      "description": "Low-level JavaScript library for custom data-driven visualizations",
+      "tags": [
+        "javascript",
+        "visualization"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Custom interactive charts",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "data",
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "plotly",
+      "category": "data-visualization",
+      "name": "Plotly",
+      "url": "https://plotly.com/javascript/",
+      "description": "Interactive charting libraries and tooling for JavaScript, Python, and data applications",
+      "tags": [
+        "charts",
+        "visualization"
+      ],
+      "cost": "Open source and paid",
+      "official": true,
+      "best_for": "Scientific and analytical charts",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "data",
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "cloudflare-d1",
+      "category": "databases",
+      "name": "Cloudflare D1",
+      "url": "https://developers.cloudflare.com/d1/",
+      "description": "Managed serverless SQL database integrated with Cloudflare Workers",
+      "tags": [
+        "edge",
+        "sqlite"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Cloudflare-native applications",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "data",
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "firebase",
+      "category": "databases",
+      "name": "Firebase",
+      "url": "https://firebase.google.com/docs",
+      "description": "Managed authentication, databases, storage, functions, hosting, analytics, and messaging",
+      "tags": [
+        "backend-as-a-service",
+        "realtime"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Mobile and realtime apps",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "data",
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "mongodb-atlas",
+      "category": "databases",
+      "name": "MongoDB Atlas",
+      "url": "https://www.mongodb.com/handbook/atlas/",
+      "description": "Managed document database platform with search, vector search, and flexible schemas",
+      "tags": [
+        "document",
+        "mongodb"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Flexible data models",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "data",
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "neon",
+      "category": "databases",
+      "name": "Neon",
+      "url": "https://neon.com/docs",
+      "description": "Serverless Postgres with branching, autoscaling, and developer-focused workflows",
+      "tags": [
+        "postgres",
+        "serverless"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Preview databases and serverless apps",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "data",
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "postgresql",
+      "category": "databases",
+      "name": "PostgreSQL",
+      "url": "https://www.postgresql.org/handbook/",
+      "description": "Feature-rich open-source relational database and official documentation",
+      "tags": [
+        "relational",
+        "sql"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Reliable relational data",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "data",
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "sqlite",
+      "category": "databases",
+      "name": "SQLite",
+      "url": "https://www.sqlite.org/docs.html",
+      "description": "Embedded transactional SQL database requiring no separate server",
+      "tags": [
+        "embedded",
+        "sql"
+      ],
+      "cost": "Public domain",
+      "official": true,
+      "best_for": "Local-first and small projects",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "data",
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "supabase",
+      "category": "databases",
+      "name": "Supabase",
+      "url": "https://supabase.com/docs",
+      "description": "Postgres platform with authentication, storage, realtime, edge functions, and vector support",
+      "tags": [
+        "auth",
+        "postgres",
+        "realtime"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Fast full-stack backends",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "data",
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "turso",
+      "category": "databases",
+      "name": "Turso",
+      "url": "https://docs.turso.tech/",
+      "description": "Distributed SQLite-compatible database platform designed for edge applications",
+      "tags": [
+        "edge",
+        "sqlite"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Edge and embedded-style data",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "data",
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "upstash",
+      "category": "databases",
+      "name": "Upstash",
+      "url": "https://upstash.com/docs",
+      "description": "Serverless Redis and messaging products with HTTP-based APIs",
+      "tags": [
+        "queue",
+        "redis",
+        "serverless"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Caching, rate limits, and queues",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "data",
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "data-gov",
+      "category": "datasets",
+      "name": "Data.gov",
+      "url": "https://data.gov/",
+      "description": "United States government open-data catalog",
+      "tags": [
+        "government",
+        "open-data"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Civic and public-data projects",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "data"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "kaggle-datasets",
+      "category": "datasets",
+      "name": "Kaggle Datasets",
+      "url": "https://www.kaggle.com/datasets",
+      "description": "Large community catalog of public datasets and notebooks",
+      "tags": [
+        "data",
+        "ml"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Data science prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "data"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "who-data",
+      "category": "datasets",
+      "name": "WHO Data",
+      "url": "https://data.who.int/",
+      "description": "Global health indicators, dashboards, and datasets",
+      "tags": [
+        "health",
+        "open-data"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Health and public-policy projects",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "data"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "world-bank-open-data",
+      "category": "datasets",
+      "name": "World Bank Open Data",
+      "url": "https://data.worldbank.org/",
+      "description": "Global development indicators and downloadable datasets",
+      "tags": [
+        "global",
+        "open-data"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Social-impact projects",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "data"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "canva",
+      "category": "design",
+      "name": "Canva",
+      "url": "https://www.canva.com/",
+      "description": "Visual design platform with presentation, social, video, and brand templates",
+      "tags": [
+        "graphics",
+        "slides"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Pitch decks and visual assets",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "excalidraw",
+      "category": "design",
+      "name": "Excalidraw",
+      "url": "https://docs.excalidraw.com/",
+      "description": "Collaborative hand-drawn diagrams and architecture sketches",
+      "tags": [
+        "diagrams",
+        "whiteboard"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Fast architecture diagrams",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "figma",
+      "category": "design",
+      "name": "Figma",
+      "url": "https://help.figma.com/",
+      "description": "Collaborative interface design, prototypes, components, and developer handoff",
+      "tags": [
+        "design",
+        "prototype"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "UI design and clickable prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "penpot",
+      "category": "design",
+      "name": "Penpot",
+      "url": "https://help.penpot.app/",
+      "description": "Open-source collaborative design and prototyping platform",
+      "tags": [
+        "design",
+        "open-source"
+      ],
+      "cost": "Open source and hosted",
+      "official": true,
+      "best_for": "Open design workflows",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "cloudflare-tunnel",
+      "category": "developer-tools",
+      "name": "Cloudflare Tunnel",
+      "url": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/",
+      "description": "Expose local or private services through outbound-only secure tunnels",
+      "tags": [
+        "cloudflare",
+        "tunnel"
+      ],
+      "cost": "Free and paid",
+      "official": true,
+      "best_for": "Sharing local services",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "devtoys",
+      "category": "developer-tools",
+      "name": "DevToys",
+      "url": "https://devtoys.app/",
+      "description": "Offline developer utilities for encoding, formatting, conversion, and inspection",
+      "tags": [
+        "utilities"
+      ],
+      "cost": "Open source",
+      "official": false,
+      "best_for": "Common transformations",
+      "reviewed_on": "2026-08-07",
+      "source_type": "primary",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "git",
+      "category": "developer-tools",
+      "name": "Git",
+      "url": "https://git-scm.com/doc",
+      "description": "Distributed version control system and official reference",
+      "tags": [
+        "version-control"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Team collaboration",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "github",
+      "category": "developer-tools",
+      "name": "GitHub",
+      "url": "https://docs.github.com/",
+      "description": "Source control hosting, collaboration, issues, Actions, Codespaces, Pages, and security features",
+      "tags": [
+        "collaboration",
+        "git"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Repository and team workflow",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "ngrok",
+      "category": "developer-tools",
+      "name": "ngrok",
+      "url": "https://ngrok.com/docs",
+      "description": "Secure tunnels and traffic inspection for exposing local services and webhooks",
+      "tags": [
+        "tunnel",
+        "webhooks"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Testing callbacks and demos",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "visual-studio-code",
+      "category": "developer-tools",
+      "name": "Visual Studio Code",
+      "url": "https://code.visualstudio.com/docs",
+      "description": "Extensible code editor with debugging, source control, remote development, and extensions",
+      "tags": [
+        "editor",
+        "ide"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "General development",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "docker",
+      "category": "devops",
+      "name": "Docker",
+      "url": "https://docs.docker.com/",
+      "description": "Container build and runtime documentation for portable development and deployment",
+      "tags": [
+        "containers",
+        "devops"
+      ],
+      "cost": "Open source and paid",
+      "official": true,
+      "best_for": "Reproducible environments",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "deploy",
+        "maintain"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "github-actions",
+      "category": "devops",
+      "name": "GitHub Actions",
+      "url": "https://docs.github.com/en/actions",
+      "description": "Repository-native CI/CD, automation, security scans, and deployments",
+      "tags": [
+        "ci-cd",
+        "github"
+      ],
+      "cost": "Free quota and paid",
+      "official": true,
+      "best_for": "Project automation",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "deploy",
+        "maintain"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "docusaurus-docs",
+      "category": "documentation",
+      "name": "Docusaurus",
+      "url": "https://docusaurus.io/docs",
+      "description": "React-based static documentation framework with versioning, search integrations, blogs, themes, and extensibility",
+      "tags": [
+        "react",
+        "static-site",
+        "versioning"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Feature-rich project documentation and public handbooks",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "submit",
+        "maintain"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "mkdocs-docs",
+      "category": "documentation",
+      "name": "MkDocs",
+      "url": "https://www.mkdocs.org/",
+      "description": "Markdown-focused static documentation generator configured with YAML and deployable to common static hosting services",
+      "tags": [
+        "markdown",
+        "python",
+        "static-site"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Simple documentation sites built from Markdown",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "submit",
+        "maintain"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "storybook-docs",
+      "category": "documentation",
+      "name": "Storybook",
+      "url": "https://storybook.js.org/docs",
+      "description": "Component workshop and documentation environment for isolated UI development, testing, examples, and design review",
+      "tags": [
+        "components",
+        "design-system",
+        "ui-testing"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Documenting and reviewing reusable interface components",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "submit",
+        "maintain"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "vitepress-docs",
+      "category": "documentation",
+      "name": "VitePress",
+      "url": "https://vitepress.dev/",
+      "description": "Vite-powered static site generator designed for fast, searchable, customizable technical documentation sites",
+      "tags": [
+        "static-site",
+        "vite",
+        "vue"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Fast documentation sites for JavaScript projects",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "submit",
+        "maintain"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "mailgun-docs",
+      "category": "email",
+      "name": "Mailgun",
+      "url": "https://documentation.mailgun.com/docs/mailgun/",
+      "description": "Email API and SMTP platform supporting sending, routing, validation, webhooks, logs, and inbound email workflows",
+      "tags": [
+        "routing",
+        "smtp",
+        "validation"
+      ],
+      "cost": "Trial and paid plans",
+      "official": true,
+      "best_for": "Email routing, validation, and API-driven delivery",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "postmark-docs",
+      "category": "email",
+      "name": "Postmark",
+      "url": "https://postmarkapp.com/developer/",
+      "description": "Transactional email service with API documentation, message streams, templates, inbound processing, and webhooks",
+      "tags": [
+        "deliverability",
+        "transactional",
+        "webhooks"
+      ],
+      "cost": "Trial and paid plans",
+      "official": true,
+      "best_for": "Delivery-focused transactional email prototypes",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "resend-docs",
+      "category": "email",
+      "name": "Resend",
+      "url": "https://resend.com/docs/introduction",
+      "description": "Developer-focused transactional email API with SDKs, domain verification, templates, webhooks, and delivery tools",
+      "tags": [
+        "api",
+        "transactional",
+        "webhooks"
+      ],
+      "cost": "Free tier and paid plans",
+      "official": true,
+      "best_for": "Sending transactional email from modern web applications",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "sendgrid-docs",
+      "category": "email",
+      "name": "Twilio SendGrid",
+      "url": "https://www.twilio.com/docs/sendgrid",
+      "description": "Email delivery platform with APIs, SMTP relay, templates, event webhooks, contact management, and analytics",
+      "tags": [
+        "email-api",
+        "smtp",
+        "templates"
+      ],
+      "cost": "Free trial and paid plans",
+      "official": true,
+      "best_for": "Teams needing a broad email API and template ecosystem",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "angular",
+      "category": "frontend",
+      "name": "Angular",
+      "url": "https://angular.dev/",
+      "description": "Full application framework with routing, forms, dependency injection, and tooling",
+      "tags": [
+        "enterprise",
+        "typescript"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Structured team projects",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "astro",
+      "category": "frontend",
+      "name": "Astro",
+      "url": "https://docs.astro.build/",
+      "description": "Content-focused web framework with islands architecture and multiple UI integrations",
+      "tags": [
+        "content",
+        "static"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Landing pages and documentation",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "daisyui",
+      "category": "frontend",
+      "name": "daisyUI",
+      "url": "https://daisyui.com/",
+      "description": "Tailwind component classes and themes for quickly assembling interfaces",
+      "tags": [
+        "components",
+        "tailwind"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Very fast prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "material-ui",
+      "category": "frontend",
+      "name": "Material UI",
+      "url": "https://mui.com/material-ui/",
+      "description": "Comprehensive React component library implementing Material Design",
+      "tags": [
+        "components",
+        "react"
+      ],
+      "cost": "Open source and paid",
+      "official": true,
+      "best_for": "Dashboards and admin apps",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "next-js",
+      "category": "frontend",
+      "name": "Next.js",
+      "url": "https://nextjs.org/docs",
+      "description": "React framework with routing, server rendering, APIs, and deployment integrations",
+      "tags": [
+        "fullstack",
+        "react"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Fast full-stack web delivery",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "nuxt",
+      "category": "frontend",
+      "name": "Nuxt",
+      "url": "https://nuxt.com/docs",
+      "description": "Vue framework for full-stack web applications and server rendering",
+      "tags": [
+        "fullstack",
+        "vue"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Vue-based applications",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "radix-ui",
+      "category": "frontend",
+      "name": "Radix UI",
+      "url": "https://www.radix-ui.com/primitives",
+      "description": "Unstyled accessible UI primitives for building design systems",
+      "tags": [
+        "accessibility",
+        "primitives"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Custom accessible components",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "react",
+      "category": "frontend",
+      "name": "React",
+      "url": "https://react.dev/",
+      "description": "Component-based user interface library with official learning and API references",
+      "tags": [
+        "javascript",
+        "ui"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Interactive web apps",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "shadcn-ui",
+      "category": "frontend",
+      "name": "shadcn/ui",
+      "url": "https://ui.shadcn.com/",
+      "description": "Accessible component patterns copied into your codebase and customized with Tailwind",
+      "tags": [
+        "components",
+        "react"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Polished React interfaces",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "sveltekit",
+      "category": "frontend",
+      "name": "SvelteKit",
+      "url": "https://svelte.dev/handbook/kit",
+      "description": "Full-stack Svelte framework with routing, server rendering, adapters, and forms",
+      "tags": [
+        "fullstack",
+        "svelte"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Compact full-stack apps",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "tailwind-css",
+      "category": "frontend",
+      "name": "Tailwind CSS",
+      "url": "https://tailwindcss.com/docs",
+      "description": "Utility-first CSS framework for rapidly composing custom interfaces",
+      "tags": [
+        "css",
+        "design-system"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Fast custom styling",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "vite",
+      "category": "frontend",
+      "name": "Vite",
+      "url": "https://vite.dev/guide/",
+      "description": "Fast frontend build tool and development server with templates for major frameworks",
+      "tags": [
+        "javascript",
+        "tooling"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Rapid frontend setup",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "godot-engine",
+      "category": "games",
+      "name": "Godot Engine",
+      "url": "https://docs.godotengine.org/en/stable/",
+      "description": "Open-source 2D and 3D game engine with editor, scripting, export, and extensive documentation",
+      "tags": [
+        "engine",
+        "games"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Cross-platform game prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "phaser",
+      "category": "games",
+      "name": "Phaser",
+      "url": "https://docs.phaser.io/",
+      "description": "JavaScript framework and examples for browser-based 2D games",
+      "tags": [
+        "games",
+        "javascript"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Web game prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "unity-documentation",
+      "category": "games",
+      "name": "Unity Documentation",
+      "url": "https://docs.unity3d.com/",
+      "description": "Official engine, editor, scripting, graphics, physics, and platform documentation",
+      "tags": [
+        "engine",
+        "games"
+      ],
+      "cost": "Free and paid plans",
+      "official": true,
+      "best_for": "3D, AR, and game prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "web",
+        "desktop",
+        "mobile"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "devpost",
+      "category": "hackathons",
+      "name": "Devpost",
+      "url": "https://devpost.com/hackathons",
+      "description": "Large directory for online and in-person hackathons, submissions, judging, and project portfolios",
+      "tags": [
+        "community",
+        "discover",
+        "submit"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Finding and submitting to hackathons",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "dorahacks",
+      "category": "hackathons",
+      "name": "DoraHacks",
+      "url": "https://dorahacks.io/hackathon",
+      "description": "Open innovation and Web3 hackathons, grants, bounties, and builder communities",
+      "tags": [
+        "grants",
+        "web3"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Blockchain and open-source events",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "ethglobal",
+      "category": "hackathons",
+      "name": "ETHGlobal",
+      "url": "https://ethglobal.com/events",
+      "description": "Ethereum-focused global hackathons, workshops, and project showcases",
+      "tags": [
+        "ethereum",
+        "web3"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Ethereum builders",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "github-education-events",
+      "category": "hackathons",
+      "name": "GitHub Education Events",
+      "url": "https://education.github.com/events",
+      "description": "Student developer events and community programs connected to GitHub Education",
+      "tags": [
+        "community",
+        "students"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Student community events",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "hackerearth-hackathons",
+      "category": "hackathons",
+      "name": "HackerEarth Hackathons",
+      "url": "https://www.hackerearth.com/challenges/hackathon/",
+      "description": "Global company and community hackathons with challenge briefs and leaderboards",
+      "tags": [
+        "challenges",
+        "jobs"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Problem-driven corporate events",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "hackster-io-contests",
+      "category": "hackathons",
+      "name": "Hackster.io Contests",
+      "url": "https://www.hackster.io/contests",
+      "description": "Hardware, IoT, embedded, and sponsor-backed developer contests",
+      "tags": [
+        "hardware",
+        "iot"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Hardware and IoT projects",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "kaggle-competitions",
+      "category": "hackathons",
+      "name": "Kaggle Competitions",
+      "url": "https://www.kaggle.com/competitions",
+      "description": "Data science and machine-learning competitions with datasets and notebooks",
+      "tags": [
+        "data",
+        "ml"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Data and ML challenges",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "major-league-hacking",
+      "category": "hackathons",
+      "name": "Major League Hacking",
+      "url": "https://www.mlh.com/events",
+      "description": "Student-focused hackathon league, event calendar, organizer resources, and Global Hack Week",
+      "tags": [
+        "events",
+        "organizers",
+        "students"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Student hackathons and learning events",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "taikai",
+      "category": "hackathons",
+      "name": "TAIKAI",
+      "url": "https://taikai.network/en/hackathons",
+      "description": "Hackathon platform with team formation, challenges, judging, and community features",
+      "tags": [
+        "discover",
+        "web3"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Online innovation challenges",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "unstop-hackathons",
+      "category": "hackathons",
+      "name": "Unstop Hackathons",
+      "url": "https://unstop.com/hackathons",
+      "description": "Competition and hackathon listings, especially strong across South Asia",
+      "tags": [
+        "competitions",
+        "students"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Regional and student events",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "adafruit-learning-system",
+      "category": "hardware",
+      "name": "Adafruit Learning System",
+      "url": "https://learn.adafruit.com/",
+      "description": "Tutorials and references for electronics, sensors, microcontrollers, wearables, and fabrication",
+      "tags": [
+        "electronics",
+        "tutorials"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Hardware learning and examples",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "hardware"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "arduino-documentation",
+      "category": "hardware",
+      "name": "Arduino Documentation",
+      "url": "https://docs.arduino.cc/",
+      "description": "Official board, IDE, library, hardware, and project documentation for Arduino development",
+      "tags": [
+        "arduino",
+        "embedded"
+      ],
+      "cost": "Open source hardware and free tools",
+      "official": true,
+      "best_for": "Microcontroller prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "hardware"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "edge-impulse",
+      "category": "hardware",
+      "name": "Edge Impulse",
+      "url": "https://docs.edgeimpulse.com/",
+      "description": "Platform for collecting sensor data, training edge ML models, and deploying to embedded hardware",
+      "tags": [
+        "edge-ai",
+        "tinyml"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "TinyML prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "hardware"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "platformio",
+      "category": "hardware",
+      "name": "PlatformIO",
+      "url": "https://docs.platformio.org/",
+      "description": "Embedded development ecosystem with boards, frameworks, libraries, builds, debugging, and tests",
+      "tags": [
+        "embedded",
+        "toolchain"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Reproducible embedded projects",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "hardware"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "raspberry-pi-documentation",
+      "category": "hardware",
+      "name": "Raspberry Pi Documentation",
+      "url": "https://www.raspberrypi.com/documentation/",
+      "description": "Official hardware, operating system, GPIO, camera, and software documentation",
+      "tags": [
+        "embedded",
+        "raspberry-pi"
+      ],
+      "cost": "Free documentation; hardware required",
+      "official": true,
+      "best_for": "Single-board computer projects",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "hardware"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "wokwi",
+      "category": "hardware",
+      "name": "Wokwi",
+      "url": "https://docs.wokwi.com/",
+      "description": "Browser-based simulator for Arduino, ESP32, STM32, Pi Pico, sensors, and circuits",
+      "tags": [
+        "iot",
+        "simulation"
+      ],
+      "cost": "Free and paid options",
+      "official": true,
+      "best_for": "Hardware demos without every physical part",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "hardware"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "cloudflare-pages",
+      "category": "hosting",
+      "name": "Cloudflare Pages",
+      "url": "https://developers.cloudflare.com/pages/",
+      "description": "Static and full-stack web deployment on Cloudflare with Workers integration",
+      "tags": [
+        "edge",
+        "hosting"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Global edge applications",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "deploy"
+      ],
+      "platforms": [
+        "web",
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "fly-io",
+      "category": "hosting",
+      "name": "Fly.io",
+      "url": "https://fly.io/handbook/",
+      "description": "Deploy applications and containers close to users across regions",
+      "tags": [
+        "containers",
+        "edge"
+      ],
+      "cost": "Usage based",
+      "official": true,
+      "best_for": "Containerized services",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "deploy"
+      ],
+      "platforms": [
+        "web",
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "github-pages",
+      "category": "hosting",
+      "name": "GitHub Pages",
+      "url": "https://docs.github.com/en/pages",
+      "description": "Static site hosting directly from GitHub repositories and Actions",
+      "tags": [
+        "github",
+        "static"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Project sites and documentation",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "deploy"
+      ],
+      "platforms": [
+        "web",
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "netlify",
+      "category": "hosting",
+      "name": "Netlify",
+      "url": "https://docs.netlify.com/",
+      "description": "Git-based web deployment, functions, forms, previews, and edge capabilities",
+      "tags": [
+        "hosting",
+        "jamstack"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Frontend and static sites",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "deploy"
+      ],
+      "platforms": [
+        "web",
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "railway",
+      "category": "hosting",
+      "name": "Railway",
+      "url": "https://docs.railway.com/",
+      "description": "Application and database deployment platform with templates and environment management",
+      "tags": [
+        "containers",
+        "hosting"
+      ],
+      "cost": "Usage based",
+      "official": true,
+      "best_for": "Fast backend deployment",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "deploy"
+      ],
+      "platforms": [
+        "web",
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "render",
+      "category": "hosting",
+      "name": "Render",
+      "url": "https://render.com/docs",
+      "description": "Managed web services, static sites, background workers, cron jobs, and databases",
+      "tags": [
+        "hosting",
+        "services"
+      ],
+      "cost": "Free and paid options",
+      "official": true,
+      "best_for": "APIs and full-stack apps",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "deploy"
+      ],
+      "platforms": [
+        "web",
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "vercel",
+      "category": "hosting",
+      "name": "Vercel",
+      "url": "https://vercel.com/docs",
+      "description": "Git-based deployments, previews, serverless and edge functions, and framework integrations",
+      "tags": [
+        "hosting",
+        "serverless"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Next.js and frontend deployment",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "deploy"
+      ],
+      "platforms": [
+        "web",
+        "cloud"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "app-ideas-collection",
+      "category": "inspiration",
+      "name": "App Ideas Collection",
+      "url": "https://github.com/florinpop17/app-ideas",
+      "description": "Application ideas organized by skill level with requirements and bonus features",
+      "tags": [
+        "ideas",
+        "projects"
+      ],
+      "cost": "Open source",
+      "official": false,
+      "best_for": "Choosing a buildable idea",
+      "reviewed_on": "2026-08-07",
+      "source_type": "community",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "awesome",
+      "category": "inspiration",
+      "name": "Awesome",
+      "url": "https://github.com/sindresorhus/awesome",
+      "description": "Meta-list of curated awesome lists across technology and other topics",
+      "tags": [
+        "awesome-list",
+        "discovery"
+      ],
+      "cost": "Open source",
+      "official": false,
+      "best_for": "Finding specialized resources",
+      "reviewed_on": "2026-08-07",
+      "source_type": "community",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "build-your-own-x",
+      "category": "inspiration",
+      "name": "Build Your Own X",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Tutorial collection for recreating databases, tools, frameworks, and systems",
+      "tags": [
+        "learning",
+        "projects"
+      ],
+      "cost": "Open source",
+      "official": false,
+      "best_for": "Deep technical project inspiration",
+      "reviewed_on": "2026-08-07",
+      "source_type": "community",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "system-design-primer",
+      "category": "inspiration",
+      "name": "System Design Primer",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "description": "System-design concepts, examples, interview questions, and reference material",
+      "tags": [
+        "architecture",
+        "systems"
+      ],
+      "cost": "Open source",
+      "official": false,
+      "best_for": "Architecture inspiration",
+      "reviewed_on": "2026-08-07",
+      "source_type": "community",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "cs50",
+      "category": "learning",
+      "name": "CS50",
+      "url": "https://cs50.harvard.edu/x/",
+      "description": "Harvard introduction to computer science with lectures, exercises, and projects",
+      "tags": [
+        "beginner",
+        "computer-science"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Core computer science fundamentals",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "freecodecamp",
+      "category": "learning",
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/learn/",
+      "description": "Free project-based courses covering web, data, backend, and developer fundamentals",
+      "tags": [
+        "beginner",
+        "courses"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Structured learning and refreshers",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "full-stack-open",
+      "category": "learning",
+      "name": "Full Stack Open",
+      "url": "https://fullstackopen.com/en/",
+      "description": "University-level course on modern React, Node, APIs, testing, GraphQL, and containers",
+      "tags": [
+        "fullstack",
+        "react"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Modern full-stack foundations",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "github-skills",
+      "category": "learning",
+      "name": "GitHub Skills",
+      "url": "https://skills.github.com/",
+      "description": "Interactive courses that teach GitHub workflows inside real repositories",
+      "tags": [
+        "beginner",
+        "git",
+        "github"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Learning Git and GitHub quickly",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "github-student-developer-pack",
+      "category": "learning",
+      "name": "GitHub Student Developer Pack",
+      "url": "https://education.github.com/pack",
+      "description": "Verified students can access developer tools, learning offers, GitHub services, and partner benefits",
+      "tags": [
+        "benefits",
+        "github",
+        "students"
+      ],
+      "cost": "Free for verified students",
+      "official": true,
+      "best_for": "Reducing hackathon infrastructure cost",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "mdn-web-docs",
+      "category": "learning",
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/",
+      "description": "Authoritative web platform documentation for HTML, CSS, JavaScript, accessibility, and browser APIs",
+      "tags": [
+        "reference",
+        "web"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Web fundamentals and API reference",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "roadmap-sh",
+      "category": "learning",
+      "name": "roadmap.sh",
+      "url": "https://roadmap.sh/",
+      "description": "Community-maintained role and technology roadmaps with guides and project ideas",
+      "tags": [
+        "career",
+        "roadmaps"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Choosing what to learn next",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "the-twelve-factor-app",
+      "category": "learning",
+      "name": "The Twelve-Factor App",
+      "url": "https://12factor.net/",
+      "description": "Principles for portable, maintainable, cloud-native services",
+      "tags": [
+        "architecture",
+        "cloud"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Backend and deployment design",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "web-dev",
+      "category": "learning",
+      "name": "web.dev",
+      "url": "https://web.dev/",
+      "description": "Practical guidance for performance, accessibility, responsive design, and modern web capabilities",
+      "tags": [
+        "accessibility",
+        "performance",
+        "web"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Improving frontend quality",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "discover",
+        "plan"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "google-maps-platform",
+      "category": "maps",
+      "name": "Google Maps Platform",
+      "url": "https://developers.google.com/maps/documentation",
+      "description": "Official maps, places, routes, geocoding, and visualization documentation",
+      "tags": [
+        "maps",
+        "places"
+      ],
+      "cost": "Usage based with credits",
+      "official": true,
+      "best_for": "Location and places applications",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "leaflet",
+      "category": "maps",
+      "name": "Leaflet",
+      "url": "https://leafletjs.com/reference.html",
+      "description": "Lightweight JavaScript library for interactive web maps",
+      "tags": [
+        "javascript",
+        "maps"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Simple interactive maps",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "mapbox-developers",
+      "category": "maps",
+      "name": "Mapbox Developers",
+      "url": "https://www.mapbox.com/developers",
+      "description": "Maps, geocoding, navigation, search, tiles, and mobile SDK documentation",
+      "tags": [
+        "geospatial",
+        "maps"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Polished geospatial products",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "maplibre-gl-js",
+      "category": "maps",
+      "name": "MapLibre GL JS",
+      "url": "https://maplibre.org/maplibre-gl-js/handbook/",
+      "description": "Open-source vector-map rendering library for web applications",
+      "tags": [
+        "maps",
+        "vector-tiles"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Custom vector maps",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "openstreetmap",
+      "category": "maps",
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/",
+      "description": "Open collaborative geographic dataset with attribution and usage policies",
+      "tags": [
+        "maps",
+        "open-data"
+      ],
+      "cost": "Open data",
+      "official": true,
+      "best_for": "Open geographic data",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "mux",
+      "category": "media",
+      "name": "Mux",
+      "url": "https://www.mux.com/docs",
+      "description": "Video upload, streaming, playback, analytics, and live-video APIs",
+      "tags": [
+        "streaming",
+        "video"
+      ],
+      "cost": "Usage based",
+      "official": true,
+      "best_for": "Video products",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "demo"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "apache-kafka-docs",
+      "category": "messaging",
+      "name": "Apache Kafka",
+      "url": "https://kafka.apache.org/documentation/",
+      "description": "Distributed event-streaming platform documentation covering brokers, producers, consumers, streams, operations, and security",
+      "tags": [
+        "event-streaming",
+        "open-source",
+        "streams"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "High-throughput event streaming when the team already knows Kafka",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "cloudamqp-docs",
+      "category": "messaging",
+      "name": "CloudAMQP",
+      "url": "https://www.cloudamqp.com/docs/",
+      "description": "Managed RabbitMQ service documentation for queues, exchanges, connections, monitoring, scaling, and integrations",
+      "tags": [
+        "managed",
+        "queues",
+        "rabbitmq"
+      ],
+      "cost": "Free tier and paid plans",
+      "official": true,
+      "best_for": "Hosted RabbitMQ queues with operational dashboards",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "nats-docs",
+      "category": "messaging",
+      "name": "NATS",
+      "url": "https://docs.nats.io/",
+      "description": "Open-source messaging system supporting pub-sub, request-reply, persistence, streams, consumers, and distributed services",
+      "tags": [
+        "open-source",
+        "pub-sub",
+        "streams"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Fast messaging and event-driven system prototypes",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "upstash-qstash",
+      "category": "messaging",
+      "name": "Upstash QStash",
+      "url": "https://upstash.com/docs/qstash/overall/getstarted",
+      "description": "HTTP-based serverless messaging and scheduling service for queues, delayed delivery, callbacks, retries, and workflows",
+      "tags": [
+        "http",
+        "queues",
+        "serverless"
+      ],
+      "cost": "Free tier and paid plans",
+      "official": true,
+      "best_for": "Background jobs without operating a message broker",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "android-developers",
+      "category": "mobile",
+      "name": "Android Developers",
+      "url": "https://developer.android.com/",
+      "description": "Official Android, Kotlin, Compose, emulator, and publishing documentation",
+      "tags": [
+        "mobile"
+      ],
+      "cost": "Free or open source",
+      "official": true,
+      "best_for": "Native Android and Kotlin applications",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "mobile"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "expo",
+      "category": "mobile",
+      "name": "Expo",
+      "url": "https://docs.expo.dev/",
+      "description": "React Native framework and services for building, testing, and distributing mobile applications",
+      "tags": [
+        "mobile"
+      ],
+      "cost": "Free or open source",
+      "official": true,
+      "best_for": "Rapid React Native mobile prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "mobile"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "flutter",
+      "category": "mobile",
+      "name": "Flutter",
+      "url": "https://docs.flutter.dev/",
+      "description": "Cross-platform UI toolkit for mobile, web, and desktop from one codebase",
+      "tags": [
+        "mobile"
+      ],
+      "cost": "Free or open source",
+      "official": true,
+      "best_for": "Single-codebase mobile, web, and desktop applications",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "mobile"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "react-native",
+      "category": "mobile",
+      "name": "React Native",
+      "url": "https://reactnative.dev/handbook/getting-started",
+      "description": "Build native applications with React and platform components",
+      "tags": [
+        "mobile"
+      ],
+      "cost": "Free or open source",
+      "official": true,
+      "best_for": "Cross-platform native applications with React",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "mobile"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "swiftui",
+      "category": "mobile",
+      "name": "SwiftUI",
+      "url": "https://developer.apple.com/xcode/swiftui/",
+      "description": "Apple framework for declarative interfaces across Apple platforms",
+      "tags": [
+        "mobile"
+      ],
+      "cost": "Free or open source",
+      "official": true,
+      "best_for": "Native applications across Apple platforms",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "mobile"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "better-stack-docs",
+      "category": "observability",
+      "name": "Better Stack",
+      "url": "https://betterstack.com/docs/",
+      "description": "Hosted logs, traces, uptime monitoring, incident response, status pages, and operational dashboards for small teams",
+      "tags": [
+        "incidents",
+        "logs",
+        "uptime"
+      ],
+      "cost": "Free tier and paid plans",
+      "official": true,
+      "best_for": "Simple uptime checks, logs, and demo-day incident visibility",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "test",
+        "deploy",
+        "maintain"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "grafana-cloud-docs",
+      "category": "observability",
+      "name": "Grafana Cloud",
+      "url": "https://grafana.com/docs/grafana-cloud/",
+      "description": "Hosted observability stack for dashboards, metrics, logs, traces, profiles, alerts, and OpenTelemetry integrations",
+      "tags": [
+        "dashboards",
+        "logs",
+        "metrics"
+      ],
+      "cost": "Free tier and paid plans",
+      "official": true,
+      "best_for": "Fast hosted dashboards and multi-signal monitoring",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "test",
+        "deploy",
+        "maintain"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "opentelemetry",
+      "category": "observability",
+      "name": "OpenTelemetry",
+      "url": "https://opentelemetry.io/docs/",
+      "description": "Vendor-neutral framework and standards for collecting traces, metrics, and logs across applications and infrastructure",
+      "tags": [
+        "observability",
+        "standards"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Portable observability instrumentation and telemetry pipelines",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "test",
+        "deploy",
+        "maintain"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "sentry",
+      "category": "observability",
+      "name": "Sentry",
+      "url": "https://docs.sentry.io/",
+      "description": "Error tracking, tracing, profiling, session replay, and release health",
+      "tags": [
+        "errors",
+        "observability"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Finding demo-breaking failures",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "test",
+        "deploy",
+        "maintain"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "first-contributions",
+      "category": "open-source",
+      "name": "First Contributions",
+      "url": "https://github.com/firstcontributions/first-contributions",
+      "description": "Guided workflow for making a first open-source contribution",
+      "tags": [
+        "beginner",
+        "git"
+      ],
+      "cost": "Open source",
+      "official": false,
+      "best_for": "Learning pull requests",
+      "reviewed_on": "2026-08-07",
+      "source_type": "community",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "submit",
+        "maintain"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "good-first-issue",
+      "category": "open-source",
+      "name": "Good First Issue",
+      "url": "https://goodfirstissue.dev/",
+      "description": "Curated issues intended for first-time open-source contributors",
+      "tags": [
+        "community",
+        "issues"
+      ],
+      "cost": "Free",
+      "official": false,
+      "best_for": "Finding approachable contributions",
+      "reviewed_on": "2026-08-07",
+      "source_type": "community",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "submit",
+        "maintain"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "up-for-grabs",
+      "category": "open-source",
+      "name": "Up For Grabs",
+      "url": "https://up-for-grabs.net/",
+      "description": "Projects that maintain tasks specifically suitable for new contributors",
+      "tags": [
+        "community",
+        "issues"
+      ],
+      "cost": "Free",
+      "official": false,
+      "best_for": "Open-source project discovery",
+      "reviewed_on": "2026-08-07",
+      "source_type": "community",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "submit",
+        "maintain"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "paddle-developer-docs",
+      "category": "payments",
+      "name": "Paddle Developer Docs",
+      "url": "https://developer.paddle.com/",
+      "description": "Merchant-of-record billing APIs, checkout, subscriptions, and webhooks",
+      "tags": [
+        "payments",
+        "subscriptions"
+      ],
+      "cost": "Usage based",
+      "official": true,
+      "best_for": "SaaS billing prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "stripe-documentation",
+      "category": "payments",
+      "name": "Stripe Documentation",
+      "url": "https://docs.stripe.com/",
+      "description": "Payments, Checkout, subscriptions, billing, test environments, and webhooks",
+      "tags": [
+        "billing",
+        "payments"
+      ],
+      "cost": "Test mode and usage based",
+      "official": true,
+      "best_for": "Payment and subscription prototypes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "google-slides",
+      "category": "presentation",
+      "name": "Google Slides",
+      "url": "https://workspace.google.com/products/slides/",
+      "description": "Collaborative browser-based presentation editor",
+      "tags": [
+        "collaboration",
+        "slides"
+      ],
+      "cost": "Free and paid",
+      "official": true,
+      "best_for": "Team pitch decks",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "judge",
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "demo",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "loom",
+      "category": "presentation",
+      "name": "Loom",
+      "url": "https://www.loom.com/",
+      "description": "Fast screen and camera recording with shareable links",
+      "tags": [
+        "demo",
+        "recording"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Asynchronous demo videos",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "judge",
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "demo",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "obs-studio",
+      "category": "presentation",
+      "name": "OBS Studio",
+      "url": "https://obsproject.com/",
+      "description": "Open-source screen recording and live production software",
+      "tags": [
+        "demo",
+        "recording"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Backup demo recordings",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "judge",
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "demo",
+        "submit"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "obsidian",
+      "category": "productivity",
+      "name": "Obsidian",
+      "url": "https://help.obsidian.md/",
+      "description": "Local Markdown knowledge base with linking and plugins",
+      "tags": [
+        "knowledge",
+        "notes"
+      ],
+      "cost": "Free for personal use",
+      "official": true,
+      "best_for": "Research and project notes",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "raycast",
+      "category": "productivity",
+      "name": "Raycast",
+      "url": "https://manual.raycast.com/",
+      "description": "Extensible launcher and productivity tool for macOS",
+      "tags": [
+        "macos",
+        "productivity"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Fast developer workflows",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "organizer",
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "ably-docs",
+      "category": "realtime",
+      "name": "Ably",
+      "url": "https://ably.com/docs/",
+      "description": "Managed realtime messaging platform for pub-sub, presence, chat, live updates, synchronization, and resilient delivery",
+      "tags": [
+        "managed",
+        "presence",
+        "pub-sub"
+      ],
+      "cost": "Free tier and paid plans",
+      "official": true,
+      "best_for": "Reliable hosted realtime features with minimal infrastructure work",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "web",
+        "mobile",
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "pusher-docs",
+      "category": "realtime",
+      "name": "Pusher",
+      "url": "https://pusher.com/docs/",
+      "description": "Hosted realtime APIs and SDKs for channels, events, presence, notifications, and synchronized application experiences",
+      "tags": [
+        "channels",
+        "managed",
+        "notifications"
+      ],
+      "cost": "Free tier and paid plans",
+      "official": true,
+      "best_for": "Quick hosted realtime channels and notifications",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "web",
+        "mobile",
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "socket-io-docs",
+      "category": "realtime",
+      "name": "Socket.IO",
+      "url": "https://socket.io/docs/v4/",
+      "description": "Realtime bidirectional communication library with reconnection, rooms, broadcasting, acknowledgements, and fallbacks",
+      "tags": [
+        "javascript",
+        "websockets",
+        "rooms"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Realtime prototypes controlled by a JavaScript team",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "web",
+        "mobile",
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "supabase-realtime",
+      "category": "realtime",
+      "name": "Supabase Realtime",
+      "url": "https://supabase.com/docs/guides/realtime",
+      "description": "Realtime database changes, broadcast messaging, and presence integrated with the Supabase development platform",
+      "tags": [
+        "database",
+        "presence",
+        "supabase"
+      ],
+      "cost": "Free tier and paid plans",
+      "official": true,
+      "best_for": "Realtime features in projects already using Supabase",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "web",
+        "mobile",
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "algolia",
+      "category": "search",
+      "name": "Algolia",
+      "url": "https://www.algolia.com/doc/",
+      "description": "Hosted search, indexing, relevance, autocomplete, and analytics",
+      "tags": [
+        "hosted",
+        "search"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Fast polished search",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "meilisearch",
+      "category": "search",
+      "name": "Meilisearch",
+      "url": "https://www.meilisearch.com/docs",
+      "description": "Open-source search engine with typo tolerance and developer-friendly APIs",
+      "tags": [
+        "open-source",
+        "search"
+      ],
+      "cost": "Open source and cloud",
+      "official": true,
+      "best_for": "Self-hosted application search",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "typesense",
+      "category": "search",
+      "name": "Typesense",
+      "url": "https://typesense.org/handbook/",
+      "description": "Open-source typo-tolerant search engine and hosted service",
+      "tags": [
+        "open-source",
+        "search"
+      ],
+      "cost": "Open source and cloud",
+      "official": true,
+      "best_for": "Instant search experiences",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "github-codeql",
+      "category": "security",
+      "name": "GitHub CodeQL",
+      "url": "https://codeql.github.com/handbook/",
+      "description": "Semantic code analysis engine and GitHub security integration",
+      "tags": [
+        "github",
+        "sast"
+      ],
+      "cost": "Free for public repositories",
+      "official": true,
+      "best_for": "Automated security scanning",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "judge",
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "gitleaks",
+      "category": "security",
+      "name": "Gitleaks",
+      "url": "https://gitleaks.io/",
+      "description": "Secret scanner for Git repositories, files, and CI pipelines",
+      "tags": [
+        "scanner",
+        "secrets"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Preventing credential leaks",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "judge",
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "mozilla-observatory",
+      "category": "security",
+      "name": "Mozilla Observatory",
+      "url": "https://developer.mozilla.org/en-US/observatory",
+      "description": "Website security assessment focused on headers and common web protections",
+      "tags": [
+        "headers",
+        "web"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Public deployment checks",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "judge",
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "owasp-cheat-sheet-series",
+      "category": "security",
+      "name": "OWASP Cheat Sheet Series",
+      "url": "https://cheatsheetseries.owasp.org/",
+      "description": "Practical application-security guidance covering authentication, sessions, APIs, secrets, and more",
+      "tags": [
+        "reference",
+        "security"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Secure implementation guidance",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "judge",
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "owasp-top-10",
+      "category": "security",
+      "name": "OWASP Top 10",
+      "url": "https://owasp.org/www-project-top-ten/",
+      "description": "Widely used awareness document for critical web application security risks",
+      "tags": [
+        "security",
+        "web"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Security review baseline",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "judge",
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "trivy",
+      "category": "security",
+      "name": "Trivy",
+      "url": "https://trivy.dev/latest/handbook/",
+      "description": "Scanner for containers, filesystems, dependencies, repositories, and infrastructure configuration",
+      "tags": [
+        "containers",
+        "scanner"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Fast supply-chain checks",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "judge",
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "high"
+    },
+    {
+      "id": "amazon-s3-docs",
+      "category": "storage",
+      "name": "Amazon S3",
+      "url": "https://docs.aws.amazon.com/s3/",
+      "description": "Cloud object storage documentation covering buckets, access control, encryption, lifecycle policies, events, and APIs",
+      "tags": [
+        "aws",
+        "object-storage",
+        "scalable"
+      ],
+      "cost": "Usage based",
+      "official": true,
+      "best_for": "Cloud-native object storage and event-driven file workflows",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "cloudinary",
+      "category": "storage",
+      "name": "Cloudinary",
+      "url": "https://cloudinary.com/documentation",
+      "description": "Managed image and video upload, transformation, optimization, storage, and delivery",
+      "tags": [
+        "cdn",
+        "media"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Image and video workflows",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "supabase-storage",
+      "category": "storage",
+      "name": "Supabase Storage",
+      "url": "https://supabase.com/docs/guides/storage",
+      "description": "Object storage integrated with Supabase authentication, row-level security policies, transformations, and CDN delivery",
+      "tags": [
+        "object-storage",
+        "security",
+        "supabase"
+      ],
+      "cost": "Free tier and paid plans",
+      "official": true,
+      "best_for": "File storage in applications already using Supabase",
+      "source_type": "official",
+      "status": "active",
+      "reviewed_on": "2026-08-07",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "uploadthing",
+      "category": "storage",
+      "name": "UploadThing",
+      "url": "https://docs.uploadthing.com/",
+      "description": "TypeScript file-upload service with framework integrations and callback handling",
+      "tags": [
+        "typescript",
+        "uploads"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Fast web file uploads",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build",
+        "test"
+      ],
+      "platforms": [
+        "cloud"
+      ],
+      "risk_level": "medium"
+    },
+    {
+      "id": "cypress",
+      "category": "testing",
+      "name": "Cypress",
+      "url": "https://docs.cypress.io/",
+      "description": "Browser testing platform for end-to-end and component tests",
+      "tags": [
+        "e2e",
+        "frontend"
+      ],
+      "cost": "Open source and paid",
+      "official": true,
+      "best_for": "Interactive browser tests",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "k6",
+      "category": "testing",
+      "name": "k6",
+      "url": "https://grafana.com/handbook/k6/latest/",
+      "description": "Developer-focused load and performance testing tool",
+      "tags": [
+        "load-testing",
+        "performance"
+      ],
+      "cost": "Open source and cloud",
+      "official": true,
+      "best_for": "API load tests",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "playwright",
+      "category": "testing",
+      "name": "Playwright",
+      "url": "https://playwright.dev/handbook/intro",
+      "description": "Cross-browser end-to-end testing and browser automation",
+      "tags": [
+        "browser",
+        "e2e"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Critical user-flow tests",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "pytest",
+      "category": "testing",
+      "name": "pytest",
+      "url": "https://docs.pytest.org/",
+      "description": "Python testing framework with fixtures and a broad plugin ecosystem",
+      "tags": [
+        "python",
+        "testing"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Python unit and integration tests",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "vitest",
+      "category": "testing",
+      "name": "Vitest",
+      "url": "https://vitest.dev/guide/",
+      "description": "Fast unit-testing framework designed for Vite and TypeScript projects",
+      "tags": [
+        "javascript",
+        "unit-testing"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Frontend and Node unit tests",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "test"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "google-fonts",
+      "category": "ui-ux",
+      "name": "Google Fonts",
+      "url": "https://fonts.google.com/",
+      "description": "Open font library with web embedding and downloadable families",
+      "tags": [
+        "fonts",
+        "typography"
+      ],
+      "cost": "Free",
+      "official": true,
+      "best_for": "Typography",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "heroicons",
+      "category": "ui-ux",
+      "name": "Heroicons",
+      "url": "https://heroicons.com/",
+      "description": "Hand-crafted SVG icons designed by the Tailwind CSS team",
+      "tags": [
+        "icons",
+        "svg"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Tailwind-oriented interfaces",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "lottiefiles",
+      "category": "ui-ux",
+      "name": "LottieFiles",
+      "url": "https://lottiefiles.com/",
+      "description": "Marketplace and tools for lightweight vector animations",
+      "tags": [
+        "animation",
+        "assets"
+      ],
+      "cost": "Free tier and paid",
+      "official": false,
+      "best_for": "UI animation",
+      "reviewed_on": "2026-08-07",
+      "source_type": "primary",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "lucide",
+      "category": "ui-ux",
+      "name": "Lucide",
+      "url": "https://lucide.dev/",
+      "description": "Consistent open-source icon set with framework packages",
+      "tags": [
+        "icons",
+        "svg"
+      ],
+      "cost": "Open source",
+      "official": true,
+      "best_for": "Product interface icons",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "undraw",
+      "category": "ui-ux",
+      "name": "unDraw",
+      "url": "https://undraw.co/illustrations",
+      "description": "Customizable open illustrations for product interfaces and presentations",
+      "tags": [
+        "illustrations",
+        "svg"
+      ],
+      "cost": "Free",
+      "official": false,
+      "best_for": "Landing pages and empty states",
+      "reviewed_on": "2026-08-07",
+      "source_type": "primary",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "plan",
+        "build"
+      ],
+      "platforms": [
+        "any"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "pinecone",
+      "category": "vector-databases",
+      "name": "Pinecone",
+      "url": "https://docs.pinecone.io/",
+      "description": "Managed vector database for semantic search, retrieval, and recommendation systems",
+      "tags": [
+        "managed",
+        "vector"
+      ],
+      "cost": "Free tier and paid",
+      "official": true,
+      "best_for": "Managed vector retrieval",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "ai",
+        "data"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "qdrant",
+      "category": "vector-databases",
+      "name": "Qdrant",
+      "url": "https://qdrant.tech/documentation/",
+      "description": "Open-source vector search engine with filtering, payloads, and distributed deployment",
+      "tags": [
+        "rag",
+        "vector"
+      ],
+      "cost": "Open source and cloud",
+      "official": true,
+      "best_for": "Vector search and RAG",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "ai",
+        "data"
+      ],
+      "risk_level": "low"
+    },
+    {
+      "id": "weaviate",
+      "category": "vector-databases",
+      "name": "Weaviate",
+      "url": "https://docs.weaviate.io/",
+      "description": "Open-source vector database with hybrid search, modules, and hosted options",
+      "tags": [
+        "hybrid-search",
+        "vector"
+      ],
+      "cost": "Open source and cloud",
+      "official": true,
+      "best_for": "Semantic and hybrid retrieval",
+      "reviewed_on": "2026-08-07",
+      "source_type": "official",
+      "status": "active",
+      "audiences": [
+        "participant"
+      ],
+      "stages": [
+        "build"
+      ],
+      "platforms": [
+        "ai",
+        "data"
+      ],
+      "risk_level": "low"
+    }
+  ]
+}

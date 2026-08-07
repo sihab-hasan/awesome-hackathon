@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-08-07",
+  "id": "demo-day",
+  "name": "Demo Day Pack",
+  "resource_ids": [
+    "google-slides",
+    "loom",
+    "obs-studio",
+    "mux",
+    "better-stack-docs",
+    "grafana-cloud-docs",
+    "opentelemetry",
+    "sentry",
+    "cloudflare-pages",
+    "fly-io",
+    "github-pages",
+    "netlify",
+    "railway",
+    "render",
+    "vercel",
+    "discord",
+    "github-projects",
+    "linear"
+  ]
+}
